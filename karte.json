@@ -256,7 +256,7 @@
     "opis": "<span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Bubbleman.jpg\">\"Elemental HERO Bubbleman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način."
 },
 {
-    "fajl": "SHINING_FLARE_WINGMAN.jpg",
+    "fajl": "Shining_flare_wingman.jpg",
     "naziv": "Elemental HERO Shining Flare Wingman",
     "tipKarte": "Monster",
     "podtip": "Fusion / Effect",
@@ -264,7 +264,7 @@
     "opis": "<span class=\"card-tooltip\" data-img=\"Flame_wingman.jpg\">\"Elemental HERO Flame Wingman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan. Ova karta dobija 300 ATK za svaku \"Elemental HERO\" kartu u tvom groblju. Kada ova karta uništi čudovište u borbi i pošalje ga u groblje: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta u groblju."
 },
 {
-    "fajl": "TEMPEST.jpg",
+    "fajl": "Tempest.jpg",
     "naziv": "Elemental HERO Tempest",
     "tipKarte": "Monster",
     "podtip": "Fusion / Effect",
@@ -272,7 +272,7 @@
     "opis": "<span class=\"card-tooltip\" data-img=\"Avian.jpg\">\"Elemental HERO Avian\"</span> + <span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Možeš poslati 1 kartu iz svoje ruke u groblje da izaberi 1 kartu koju kontrolišeš; ta karta ne može biti uništena u borbi ovog poteza."
 },
 {
-    "fajl": "RAMPART_BLASTER.jpg",
+    "fajl": "Rampart_blaster.jpg",
     "naziv": "Elemental HERO Rampart Blaster",
     "tipKarte": "Monster",
     "podtip": "Fusion / Effect",
