@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh! Galerija Karata</title>
+    <!-- Povezivanje eksternog CSS fajla -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Yu-Gi-Oh! Galerija Karata</h1>
+        <p>Kliknite na kartu za detaljan prikaz i opis • Koristite strelice ili tastaturu (← / →) za prelistavanje</p>
+    </header>
+
+    <main class="gallery" id="gallery"></main>
+
+    <!-- Modal Popup Container -->
+    <div class="modal-overlay" id="modalOverlay">
+        <button class="nav-arrow prev" id="prevBtn" title="Prethodna karta">&#10094;</button>
+        <button class="nav-arrow next" id="nextBtn" title="Sledeća karta">&#10095;</button>
+
+        <div class="modal-content">
+            <span class="close-btn" id="closeBtn" title="Zatvori">&times;</span>
+            <div class="modal-left">
+                <img id="modalImg" src="" alt="Yu-Gi-Oh karta">
+            </div>
+            <div class="modal-right">
+                <h2 id="modalTitle">Naziv Karte</h2>
+                <p id="modalDesc">Opis i efekat karte...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Povezivanje eksternog JavaScript fajla -->
+    <!-- Tooltip kontejner za prikaz sličice -->
+<div id="card-preview-tooltip" class="card-preview-tooltip">
+    <img id="tooltip-img" src="" alt="Card Preview">
+</div> 
+    <script src="script.js"></script>
+</body>
+</html>

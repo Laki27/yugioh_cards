@@ -1,0 +1,282 @@
+[
+    {
+        "fajl": "EMERGENCY_CALL.jpg",
+        "naziv": "E - Emergency Call",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Dodaj 1 \"Elemental HERO\" čudovište iz svog špila u svoju ruku."
+    },
+    {
+        "fajl": "FIFTH_HOPE.jfif",
+        "naziv": "Fifth Hope",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Ciljaj 5 \"Elemental HERO\" karata u svom groblju; pomešaj ih u špil, a zatim izvuci 2 karte (ili 3 karte ako na terenu i u ruci nemaš drugih karata)."
+    },
+    {
+        "fajl": "FUISION_GATE.jpg",
+        "naziv": "Fusion Gate",
+        "tipKarte": "Spell",
+        "podtip": "Field",
+        "atributi": null,
+        "opis": "Dok je ova karta na terenu: Bilo koji igrač može izvršiti Fusion Summon fuzijskog čudovišta uklanjanjem materijala sa svoje ruke ili terena iz igre."
+    },
+    {
+        "fajl": "FUTURE_FUSION.png",
+        "naziv": "Future Fusion",
+        "tipKarte": "Spell",
+        "podtip": "Continuous",
+        "atributi": null,
+        "opis": "Tokom tvoje prve Standby Faze nakon aktivacije: Pošalji materijale za fuziju iz špila na groblje. Tokom tvoje 2. Standby Faze: Specijalno prizovi to Fusion čudovište iz svog Extra Deck-a."
+    },
+    {
+        "fajl": "H.jpg",
+        "naziv": "H - Heated Heart",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Ciljaj 1 licem okrenuto čudovište na terenu; ono dobija 500 ATK do kraja ovog poteza. Ako napadne čudovište u odbrambenom položaju, nanesite piercing borbenu štetu protivniku."
+    },
+    {
+        "fajl": "HERO_FLASH.jpg",
+        "naziv": "HERO Flash!!",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Aktiviraj samo uklanjanjem \"H - Heated Heart\", \"E - Emergency Call\", \"R - Righteous Justice\" i \"O - Oversoul\" iz svog groblja. Specijalno prizovi 1 \"Elemental HERO\" Normalno čudovište iz svog špila."
+    },
+    {
+        "fajl": "MIRACLE_FUSION.jpg",
+        "naziv": "Miracle Fusion",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Fusion Summon 1 \"Elemental HERO\" Fusion čudovište iz svog Extra Deck-a uklanjanjem materijala navedenih na njemu sa svog terena ili iz svog groblja iz igre."
+    },
+    {
+        "fajl": "NEO_SPACE.jpg",
+        "naziv": "Neo Space",
+        "tipKarte": "Spell",
+        "podtip": "Field",
+        "atributi": null,
+        "opis": "\"Elemental HERO Neos\" i sva Fusion čudovišta koja navode \"Elemental HERO Neos\" kao materijal dobijaju 500 ATK. Fusion čudovišta ne moraju da se vraćaju u Extra Deck tokom End Faze."
+    },
+    {
+        "fajl": "OVERSOUL.jfif",
+        "naziv": "O - Oversoul",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Ciljaj 1 \"Elemental HERO\" Normalno čudovište u svom groblju; Specijalno ga prizovi na teren."
+    },
+    {
+        "fajl": "POLYMERZATION.jpg",
+        "naziv": "Polymerization",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Spoji (Fusion Summon) 1 Fusion čudovište iz svog Extra Deck-a, koristeći čudovišta iz svoje ruke ili sa terena kao Fusion materijal."
+    },
+    {
+        "fajl": "POWER_BOND.jfif",
+        "naziv": "Power Bond",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Fusion Summon 1 Machine Fusion čudovište iz svog Extra Deck-a koristeći materijale iz ruke ili sa terena. Ono dobija ATK jednak svom originalnom ATK-u. Tokom End Faze, primaš štetu jednaku tom povećanju."
+    },
+    {
+        "fajl": "R.jfif",
+        "naziv": "R - Righteous Justice",
+        "tipKarte": "Spell",
+        "podtip": "Normal",
+        "atributi": null,
+        "opis": "Uništi Spell/Trap karte na terenu do broja \"Elemental HERO\" karata koje kontrolišeš."
+    },
+    {
+        "fajl": "SKYSCRAPERjpg.jpg",
+        "naziv": "Skyscraper",
+        "tipKarte": "Spell",
+        "podtip": "Field",
+        "atributi": null,
+        "opis": "Kada \"Elemental HERO\" čudovište napadne čudovište koje ima veći ATK od njega, napadačko čudovište dobija 1000 ATK samo tokom izračunavanja štete."
+    },
+    {
+        "fajl": "SUPER_POLYMERIZATION.png",
+        "naziv": "Super Polymerization",
+        "tipKarte": "Spell",
+        "podtip": "Quick-Play",
+        "atributi": null,
+        "opis": "Odbaci 1 kartu; Fusion Summon 1 Fusion čudovište iz svog Extra Deck-a koristeći čudovišta sa bilo koje strane terena kao materijal. Nijedan igrač ne može aktivirati karte ili efekte kao odgovor na ovu kartu."
+    },
+    {
+    "fajl": "Avian.jpg",
+    "naziv": "Elemental HERO Avian",
+    "tipKarte": "Monster",
+    "podtip": "Normal",
+    "atributi": "Warrior / WIND / Level 3 / ATK 1000 / DEF 1000",
+    "opis": "Krilat čudovište koje vlada nebom sa skrivenim napadima. Koristi svoja krila da rastera vetrove u borbi."
+    },
+    {
+    "fajl": "Bubbleman.jpg",
+    "naziv": "Elemental HERO Bubbleman",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Warrior / WATER / Level 4 / ATK 800 / DEF 1200",
+    "opis": "Ako je ovo jedina karta u tvojoj ruci, možeš je Specijalno Prizvati (Special Summon) iz ruke. Kada je ova karta Prizvana: Možeš izvući 2 karte iz špila, pod uslovom da ne kontrolišeš druge karte i nemaš drugih karata u ruci."
+},
+{
+    "fajl": "Explonatrix.png",
+    "naziv": "Elemental HERO Burstinatrix",
+    "tipKarte": "Monster",
+    "podtip": "Normal",
+    "atributi": "Warrior / FIRE / Level 3 / ATK 1200 / DEF 800",
+    "opis": "Gospodarica plamena koja je jedini ženski član Elemental HERO tima. Njen vatreni udar spaljuje sve oblike zla."
+},
+{
+    "fajl": "Glina.jpg",
+    "naziv": "Elemental HERO Clayman",
+    "tipKarte": "Monster",
+    "podtip": "Normal",
+    "atributi": "Warrior / EARTH / Level 4 / ATK 800 / DEF 2000",
+    "opis": "Elemental HERO napravljen od gline. Njegovo čvrsto telo štiti ostale HEROje po svaku cenu."
+},
+{
+    "fajl": "Iskra.jpg",
+    "naziv": "Elemental HERO Sparkman",
+    "tipKarte": "Monster",
+    "podtip": "Normal",
+    "atributi": "Warrior / LIGHT / Level 4 / ATK 1600 / DEF 1400",
+    "opis": "Vešt ratnik sa oružjem od svetlosti koji vlada električnim pražnjenjima i osvetljava put u borbi."
+},
+{
+    "fajl": "Ostrica.jpg",
+    "naziv": "Elemental HERO Bladedge",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Warrior / EARTH / Level 7 / ATK 2600 / DEF 1800",
+    "opis": "Ako ova karta napadne čudovište u odbrambenom položaju, nanesite piercing borbenu štetu protivniku (razliku između ATK ove karte i DEF protivničkog čudovišta)."
+},
+{
+    "fajl": "Wildheart.png",
+    "naziv": "Elemental HERO Wildheart",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Warrior / EARTH / Level 4 / ATK 1500 / DEF 1600",
+    "opis": "Ova karta je neosetljiva na efekte Trap karata (Zamki)."
+},
+{
+    "fajl": "Neos.png",
+    "naziv": "Elemental HERO Neos",
+    "tipKarte": "Monster",
+    "podtip": "Normal",
+    "atributi": "Warrior / LIGHT / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "Novi Elemental HERO koji je stigao iz Neo-Svemira. Kada se spoji sa Neo-Spacian čudovištima, otključava beskrajne mogućnosti i moći."
+},
+{
+    "fajl": "Krilati_kuribo.jpg",
+    "naziv": "Winged Kuriboh",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Fairy / LIGHT / Level 1 / ATK 300 / DEF 200",
+    "opis": "Ako je ova karta uništena na terenu i poslata u groblje: Do kraja ovog poteza ne primaš nikakvu borbenu štetu."
+},
+{
+    "fajl": "Neo_spacian_dark_panther.jpg",
+    "naziv": "Neo-Spacian Dark Panther",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Beast / DARK / Level 3 / ATK 1000 / DEF 500",
+    "opis": "Jednom po potezu: Možeš izabrati 1 licem okrenuto čudovište koje tvoj protivnik kontroliše; do kraja ovog poteza, ime ove karte postaje originalno ime tog čudovišta, i zamenjuje ovaj efekat originalnim efektima tog čudovišta."
+},
+{
+    "fajl": "Glow_moss.jpg",
+    "naziv": "Neo-Spacian Glow Moss",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Plant / LIGHT / Level 3 / ATK 300 / DEF 900",
+    "opis": "Kada ova karta napada ili je napadnuta: Tvoj protivnik izvlači 1 kartu i otkriva je. Primenite odgovarajući efekat na osnovu tipa te karte:\n• Monster (Čudovište): Završite borbenu fazu (Battle Phase) ovog poteza.\n• Spell (Magija): Možeš promeniti ovaj napad u direktan napad.\n• Trap (Zamka): Ova karta se prebacuje u odbrambeni položaj."
+},
+{
+    "fajl": "Aqua_dolphine.jpg",
+    "naziv": "Neo-Spacian Aqua Dolphin",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Warrior / WATER / Level 3 / ATK 600 / DEF 800",
+    "opis": "Jednom po potezu: Možeš odbaciti 1 kartu; pogledaj ruku svog protivnika i izaberi 1 čudovište u njoj. Ako kontrolišeš čudovište sa većim ATK-om od ATK-a izabranog čudovišta, uništi to čudovište u protivnikovoj ruci i nanesi 500 štete protivniku. U suprotnom, ti primaš 500 štete."
+},
+{
+    "fajl": "Air_Hummingbird.jpg",
+    "naziv": "Neo-Spacian Air Hummingbird",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Winged Beast / WIND / Level 3 / ATK 800 / DEF 600",
+    "opis": "Jednom po potezu: Možeš dobiti 500 Životnih Poena (LP) za svaku kartu u ruci tvog protivnika."
+},
+{
+    "fajl": "Flare_scarab.jpg",
+    "naziv": "Neo-Spacian Flare Scarab",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Insect / FIRE / Level 3 / ATK 500 / DEF 500",
+    "opis": "Ova karta dobija 400 ATK za svaku Spell (Magija) i Trap (Zamka) kartu koju tvoj protivnik kontroliše."
+},
+{
+    "fajl": "Grand_mole.jfif",
+    "naziv": "Neo-Spacian Grand Mole",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Rock / EARTH / Level 3 / ATK 900 / DEF 300",
+    "opis": "Na početku borbene koraka (Damage Step), ako ova karta napadne ili je napadnuta od strane protivničkog čudovišta: Možeš vratiti i protivničko čudovište i ovu kartu u ruku."
+},
+{
+    "fajl": "FLAME_WINGMAN.jpg",
+    "naziv": "Elemental HERO Flame Wingman",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / WIND / Level 6 / ATK 2100 / DEF 1200",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Avian.jpg\">\"Elemental HERO Avian\"</span> + <span class=\"card-tooltip\" data-img=\"Explonatrix.png\">\"Elemental HERO Burstinatrix\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Kada ova karta uništi čudovište u borbi i pošalje ga u groblje: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta u groblju."
+},
+{
+    "fajl": "Thunder_Giant.jpg",
+    "naziv": "Elemental HERO Thunder Giant",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / LIGHT / Level 6 / ATK 2400 / DEF 1500",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span> + <span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span>\nMora biti Fuziono Prizvan. Jednom po potezu: Možeš odbaciti 1 kartu, zatim izabrati 1 licem okrenuto čudovište na terenu sa manjim originalnim ATK-om od ove karte; uništi tu metu."
+},
+{
+    "fajl": "Mudballman.jfif",
+    "naziv": "Elemental HERO Mudballman",
+    "tipKarte": "Monster",
+    "podtip": "Fusion",
+    "atributi": "Warrior / EARTH / Level 6 / ATK 1000 / DEF 3000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Bubbleman.jpg\">\"Elemental HERO Bubbleman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način."
+},
+{
+    "fajl": "SHINING_FLARE_WINGMAN.jpg",
+    "naziv": "Elemental HERO Shining Flare Wingman",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / LIGHT / Level 8 / ATK 2500 / DEF 2100",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Flame_wingman.jpg\">\"Elemental HERO Flame Wingman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan. Ova karta dobija 300 ATK za svaku \"Elemental HERO\" kartu u tvom groblju. Kada ova karta uništi čudovište u borbi i pošalje ga u groblje: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta u groblju."
+},
+{
+    "fajl": "TEMPEST.jpg",
+    "naziv": "Elemental HERO Tempest",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / WIND / Level 8 / ATK 2800 / DEF 2800",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Avian.jpg\">\"Elemental HERO Avian\"</span> + <span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Možeš poslati 1 kartu iz svoje ruke u groblje da izaberi 1 kartu koju kontrolišeš; ta karta ne može biti uništena u borbi ovog poteza."
+},
+{
+    "fajl": "RAMPART_BLASTER.jpg",
+    "naziv": "Elemental HERO Rampart Blaster",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / EARTH / Level 6 / ATK 2000 / DEF 2500",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Explonatrix.png\">\"Elemental HERO Burstinatrix\"</span>\nMora biti Fuziono Prizvan. Dok je ova karta u licem okrenutom odbrambenom položaju, može napasti direktno, ali prepolovi njen ATK tokom proračuna štete."
+}
+]

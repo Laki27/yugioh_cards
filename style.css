@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+/* --- GRID GALLERY --- */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    border: 1px solid #334155;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(56, 189, 248, 0.35);
+    border-color: #38bdf8;
+}
+
+.img-container {
+    flex: 1;
+    background-color: #090d16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.25s ease;
+}
+
+.card:hover img {
+    transform: scale(1.03);
+}
+
+.card-title {
+    padding: 12px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: #cbd5e1;
+    background-color: #1e293b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-top: 1px solid #334155;
+}
+
+/* --- MODAL POPUP --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background-color: #1e293b;
+    border: 2px solid #38bdf8;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 920px;
+    max-height: 85vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    font-size: 32px;
+    line-height: 1;
+    color: #94a3b8;
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.close-btn:hover {
+    color: #f43f5e;
+    transform: scale(1.15);
+}
+
+/* Navigation Arrows */
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(15, 23, 42, 0.85);
+    color: #38bdf8;
+    border: 2px solid #38bdf8;
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1001;
+    transition: background 0.2s, transform 0.2s, color 0.2s;
+    user-select: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.nav-arrow:hover {
+    background: #38bdf8;
+    color: #0f172a;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.nav-arrow.prev {
+    left: 15px;
+}
+
+.nav-arrow.next {
+    right: 15px;
+}
+
+/* Left Side: Image */
+.modal-left {
+    flex: 1;
+    background-color: #090d16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    min-width: 320px;
+}
+
+.modal-left img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 6px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+}
+
+/* Right Side: Description */
+.modal-right {
+    flex: 1.2;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.modal-right h2 {
+    color: #38bdf8;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #334155;
+    padding-bottom: 12px;
+}
+
+.modal-right p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #e2e8f0;
+    white-space: pre-line;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .modal-content {
+        flex-direction: column;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    .modal-left {
+        min-width: auto;
+        padding: 15px;
+    }
+    .modal-left img {
+        max-height: 40vh;
+    }
+    .modal-right {
+        padding: 20px;
+    }
+    .nav-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .nav-arrow.prev {
+        left: 5px;
+    }
+    .nav-arrow.next {
+        right: 5px;
+    }
+}
+
+/* Stil za nazive karata u opisu koji imaju pregled */
+.card-tooltip {
+    color: #ffd700; /* Zlatna boja za lakše prepoznavanje */
+    font-weight: bold;
+    text-decoration: underline dotted;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Stil za lebdeći prozorčić sa slikom */
+.card-preview-tooltip {
+    position: fixed;
+    display: none;
+    z-index: 9999;
+    pointer-events: none; /* Omogućava da miš glatko prelazi bez kočenja */
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    padding: 4px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-preview-tooltip img {
+    width: 120px; /* Veličina male sličice u prozorčiću */
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
