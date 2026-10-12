@@ -344,7 +344,7 @@
     "opis": "<span class=\"card-tooltip\" data-img=\"NECROSHADE.jpg\">\"Elemental HERO Necroshade\"</span> + <span class=\"card-tooltip\" data-img=\"Wildheart.png\">\"Elemental HERO Wildheart\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Kada je ova karta Prizvana: Možeš izabrati 1 čudovište u groblju tvog protivnika; Specijalno Prizovi tu metu na protivnikovu stranu terena. Kada ova karta uništi to čudovište u borbi: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta."
 },
 {
-    "fajl": "RAINBOW_NEOS.jpg",
+    "fajl": "Rainbow_Neos.jpg",
     "naziv": "Elemental HERO Rainbow Neos",
     "tipKarte": "Monster",
     "podtip": "Fusion / Effect",
