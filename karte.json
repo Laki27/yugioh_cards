@@ -349,7 +349,7 @@
     "tipKarte": "Monster",
     "podtip": "Fusion / Effect",
     "atributi": "Warrior / LIGHT / Level 10 / ATK 4500 / DEF 3000",
-    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + (<span class=\"card-tooltip\" data-img=\"RAINBOW_DRAGON.jpg\">\"Rainbow Dragon\"</span> ili <span class=\"card-tooltip\" data-img=\"RAINBOW_DARK_DRAGON.jpg\">\"Rainbow Dark Dragon\"</span>)\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Jednom po potezu, možeš aktivirati 1 od ovih efekata:\n• Pošalji 1 kartu iz svoje ruke u groblje; pošalji sve karte koje protivnik kontroliše u groblje.\n• Pošalji 1 kartu iz svog špila u groblje; pošalji sve karte u protivnikovom groblju u groblje.\n• Pošalji ovu kartu sa terena u Extra Deck; promešaj sve karte sa terena i iz groblja obeju igrača nazad u špil."
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + (<span class=\"card-tooltip\" data-img=\"rainbow_dragon.jpg\">\"Rainbow Dragon\"</span> ili <span class=\"card-tooltip\" data-img=\"Rainbow_Dark_Dragon.jpg\">\"Rainbow Dark Dragon\"</span>)\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Jednom po potezu, možeš aktivirati 1 od ovih efekata:\n• Pošalji 1 kartu iz svoje ruke u groblje; pošalji sve karte koje protivnik kontroliše u groblje.\n• Pošalji 1 kartu iz svog špila u groblje; pošalji sve karte u protivnikovom groblju u groblje.\n• Pošalji ovu kartu sa terena u Extra Deck; promešaj sve karte sa terena i iz groblja obeju igrača nazad u špil."
 },
 {
     "fajl": "Rainbow_Dark_Dragon.jpg",
