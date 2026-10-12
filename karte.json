@@ -261,7 +261,7 @@
         "tipKarte": "Monster",
         "podtip": "Fusion / Effect",
         "atributi": "Warrior / LIGHT / Level 8 / ATK 2500 / DEF 2100",
-        "opis": "<span class=\"card-tooltip\" data-img=\"Flame_wingman.jpg\">\"Elemental HERO Flame Wingman\"</span> + <span class=\"card-tooltip\" data-img=\"SPARKMAN.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan. Ova karta dobija 300 ATK za svaku \"Elemental HERO\" kartu u tvom groblju. Kada ova karta uništi čudovište u borbi i pošalje ga u groblje: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta u groblju."
+        "opis": "<span class=\"card-tooltip\" data-img=\"Flame_wingman.jpg\">\"Elemental HERO Flame Wingman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan. Ova karta dobija 300 ATK za svaku \"Elemental HERO\" kartu u tvom groblju. Kada ova karta uništi čudovište u borbi i pošalje ga u groblje: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta u groblju."
     },
     {
         "fajl": "Tempest.jpg",
@@ -269,7 +269,7 @@
         "tipKarte": "Monster",
         "podtip": "Fusion / Effect",
         "atributi": "Warrior / WIND / Level 8 / ATK 2800 / DEF 2800",
-        "opis": "<span class=\"card-tooltip\" data-img=\"Avian.jpg\">\"Elemental HERO Avian\"</span> + <span class=\"card-tooltip\" data-img=\"CLAYMAN.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"SPARKMAN.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Možeš poslati 1 kartu iz svoje ruke u groblje da izaberi 1 kartu koju kontrolišeš; ta karta ne može biti uništena u borbi ovog poteza."
+        "opis": "<span class=\"card-tooltip\" data-img=\"Avian.jpg\">\"Elemental HERO Avian\"</span> + <span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Iskra.jpg\">\"Elemental HERO Sparkman\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Možeš poslati 1 kartu iz svoje ruke u groblje da izaberi 1 kartu koju kontrolišeš; ta karta ne može biti uništena u borbi ovog poteza."
     },
     {
         "fajl": "Rampart_blaster.jpg",
@@ -277,6 +277,94 @@
         "tipKarte": "Monster",
         "podtip": "Fusion / Effect",
         "atributi": "Warrior / EARTH / Level 6 / ATK 2000 / DEF 2500",
-        "opis": "<span class=\"card-tooltip\" data-img=\"CLAYMAN.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"BURSTINATRIX.jpg\">\"Elemental HERO Burstinatrix\"</span>\nMora biti Fuziono Prizvan. Dok je ova karta u licem okrenutom odbrambenom položaju, može napasti direktno, ali prepolovi njen ATK tokom proračuna štete."
-    }
+        "opis": "<span class=\"card-tooltip\" data-img=\"Glina.jpg\">\"Elemental HERO Clayman\"</span> + <span class=\"card-tooltip\" data-img=\"Explonatrix.png\">\"Elemental HERO Burstinatrix\"</span>\nMora biti Fuziono Prizvan. Dok je ova karta u licem okrenutom odbrambenom položaju, može napasti direktno, ali prepolovi njen ATK tokom proračuna štete."
+    },
+    {
+    "fajl": "FLARE_NEOS.png",
+    "naziv": "Elemental HERO Flare Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / FIRE / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Flare_scarab.jpg\">\"Neo-Spacian Flare Scarab\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Ova karta dobija 400 ATK za svaku Spell i Trap kartu na terenu. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "Aire_Neos.jpg",
+    "naziv": "Elemental HERO Air Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / WIND / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Air_Hummingbird.jpg\">\"Neo-Spacian Air Hummingbird\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Ova karta dobija ATK jednak razlici između tvojih i protivnikovih Životnih Poena (LP), ukoliko su tvoji LP manji. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "Dark_Neos.jpg",
+    "naziv": "Elemental HERO Dark Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / DARK / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Neo_spacian_dark_panther.jpg\">\"Neo-Spacian Dark Panther\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Možeš žrtvovati (negirati) efekat 1 čudovišta sa efektom na terenu dok je ova karta licem okrenuta na terenu. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "GRAND_NEOS.jpg",
+    "naziv": "Elemental HERO Grand Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / EARTH / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Grand_mole.jfif\">\"Neo-Spacian Grand Mole\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Jednom po potezu: Možeš izabrati 1 čudovište koje protivnik kontroliše; vrati tu metu i ovu kartu u ruku. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "AQUA_NEOS.png",
+    "naziv": "Elemental HERO Aqua Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / WATER / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Aqua_dolphine.jpg\">\"Neo-Spacian Aqua Dolphin\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Možeš odbaciti 1 kartu da nasumično izabereš i uništiš 1 kartu u ruci tvog protivnika. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "GLOW_NEOS.png",
+    "naziv": "Elemental HERO Glow Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / LIGHT / Level 7 / ATK 2500 / DEF 2000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + <span class=\"card-tooltip\" data-img=\"Glow_moss.jpg\">\"Neo-Spacian Glow Moss\"</span>\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Jednom po potezu: Možeš izabrati 1 kartu za magiju ili zamku (Spell/Trap) koju protivnik kontroliše; uništite tu metu. Tokom End Faze: Vrati ovu kartu u Extra Deck."
+},
+{
+    "fajl": "NECROSHADE.jpg",
+    "naziv": "Elemental HERO Necroshade",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Warrior / DARK / Level 5 / ATK 1600 / DEF 1800",
+    "opis": "Jednom u toku igre, dok je ova karta u tvom groblju, možeš da žrtvuješ (pošalješ) ovu kartu da normalno prizoveš (Normal Summon) 1 \"Elemental HERO\" čudovište iz ruke bez žrtvovanja."
+},
+{
+    "fajl": "NECROID_SHAMAN.jfif",
+    "naziv": "Elemental HERO Necroid Shaman",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / DARK / Level 6 / ATK 1900 / DEF 1800",
+    "opis": "<span class=\"card-tooltip\" data-img=\"NECROSHADE.jpg\">\"Elemental HERO Necroshade\"</span> + <span class=\"card-tooltip\" data-img=\"Wildheart.png\">\"Elemental HERO Wildheart\"</span>\nMora biti Fuziono Prizvan i ne može biti Prizvan na drugi način. Kada je ova karta Prizvana: Možeš izabrati 1 čudovište u groblju tvog protivnika; Specijalno Prizovi tu metu na protivnikovu stranu terena. Kada ova karta uništi to čudovište u borbi: Nanesi štetu protivniku jednaku originalnom ATK-u tog uništenog čudovišta."
+},
+{
+    "fajl": "RAINBOW_NEOS.jpg",
+    "naziv": "Elemental HERO Rainbow Neos",
+    "tipKarte": "Monster",
+    "podtip": "Fusion / Effect",
+    "atributi": "Warrior / LIGHT / Level 10 / ATK 4500 / DEF 3000",
+    "opis": "<span class=\"card-tooltip\" data-img=\"Neos.png\">\"Elemental HERO Neos\"</span> + (<span class=\"card-tooltip\" data-img=\"RAINBOW_DRAGON.jpg\">\"Rainbow Dragon\"</span> ili <span class=\"card-tooltip\" data-img=\"RAINBOW_DARK_DRAGON.jpg\">\"Rainbow Dark Dragon\"</span>)\nMora biti Fuziono Prizvan iznad navedenim materijalima i ne može biti Prizvan na drugi način. Jednom po potezu, možeš aktivirati 1 od ovih efekata:\n• Pošalji 1 kartu iz svoje ruke u groblje; pošalji sve karte koje protivnik kontroliše u groblje.\n• Pošalji 1 kartu iz svog špila u groblje; pošalji sve karte u protivnikovom groblju u groblje.\n• Pošalji ovu kartu sa terena u Extra Deck; promešaj sve karte sa terena i iz groblja obeju igrača nazad u špil."
+},
+{
+    "fajl": "Rainbow_Dark_Dragon.jpg",
+    "naziv": "Rainbow Dark Dragon",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Dragon / DARK / Level 10 / ATK 4000 / DEF 0",
+    "opis": "Ova karta ne može biti Normalno Prizvana ili Postavljena. Može se Specijalno Prizvati samo ako imaš 7 ili više \"Crystal Beast\" karata sa različitim imenima u svom groblju. Možeš ukloniti iz igre sva \"Crystal Beast\" čudovišta u svom groblju; ova karta dobija 500 ATK za svaku kartu uklonjenu na ovaj način do kraja ovog poteza."
+},
+{
+    "fajl": "rainbow_dragon.jpg",
+    "naziv": "Rainbow Dragon",
+    "tipKarte": "Monster",
+    "podtip": "Effect",
+    "atributi": "Dragon / LIGHT / Level 10 / ATK 4000 / DEF 0",
+    "opis": "Ova karta ne može biti Normalno Prizvana ili Postavljena. Može se Specijalno Prizvati samo ako imaš 7 ili više \"Crystal Beast\" karata sa različitim imenima u svom špilu ili na terenu. Možeš poslati sve \"Crystal Beast\" čudovišta koja kontrolišeš u groblje; ova karta dobija 1000 ATK za svaku kartu poslatu na ovaj način do kraja ovog poteza."
+}
 ]
